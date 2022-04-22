@@ -15,8 +15,7 @@ namespace XRMconnection
             {
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-                string _connectstring = @"authtype=OAuth;username=pa@bj-pro.one;password=1234.com;url=https://d365test2.crm.dynamics.cn;appid=1950a258-227b-4e31-a9cf-717495945fc2;redirecturi=https://d365test2.crm.dynamics.cn;loginprompt=Auto;";
-                //string _connectstring = @"AuthType=Office365;Username=why@bj-pro.one;Password=zxczxc101100.;Url=https://d365test2.crm.dynamics.cn;LoginPrompt=Auto;Domain=bj-pro.one;";
+                string _connectstring = @"authtype=OAuth;username=xxx@xxx.xx;password=xxx;url=https://d365test2.crm.dynamics.cn;appid=xxxx-227b-4e31-a9cf-717495945fc2;redirecturi=https://d365test2.crm.dynamics.cn;loginprompt=Auto;";
 
                 CrmServiceClient conn = new CrmServiceClient(_connectstring);
                 string f = @"<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='true'>
